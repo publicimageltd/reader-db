@@ -4,8 +4,8 @@ Simple configuration data base for emacs lisp programs.
 Provides a very simple database to store values associated with
 distinct keys (called 'slots'). 
 
-This is not a replacement for a real data base; it is mainly intented to store simple configuration
-information.
+This is not a replacement for a real data base; it is mainly intented
+to store simple configuration information.
 
 The data is stored as a readable Lisp object. Thus, only printable
 objects can be stored. All modifications of the data base rewrite
