@@ -1,10 +1,13 @@
 ;;; reader-db.el --- Simple one-file data base         -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2018
+;; Copyright (C) 2018-2019
 
-;; Author:  <joerg@joergvolbers.de>
+;; Author:  Public Image Ltd. <joerg@joergvolbers.de>
 ;; Keywords: files, data
 ;; Version: 0.1
+;; Package-Version: 0.1
+;; Package-Requires: ((emacs "25.1"))
+;; URL: https://github.com/publicimageltd/reader-db
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
