@@ -52,17 +52,17 @@
     (var3 . (format "%s" "unqoted lists will be evaluated")))
   "Exemplary definition list for a reader db file.
 
-See `reader-db-object'.")
+See `reader-db-object' for an explanation of the syntax.")
 
 (defun reader-db-object (definition &rest r)
   "Create an object to store in the reader file data base.
 
-DEFINITION (alist) defines the slots to be used and assigns
-default values to them.
+DEFINITION (alist) defines the slots to be used and possibly
+assigns default values to them.
 
 Valid definitions are, for example:
 
-  (a) ((slot1) (slot2))
+  (a) ((slot1) (slot2))  ;; slot1 and slot2 default to nil
 
   (b) ((slot1 . \"Initial value1\") (slot2))
 
