@@ -19,9 +19,20 @@ example.
 # Example usage:
 
 ```
+;; Define the data base:
 (setq db-definition '((slot1) (slot2)))
+
+;; Initialize the database:
 (reader-db-init "filename" db-definition)
+
+;; Retrieve the value of slot1:
 (reader-db-get "filename" 'slot1)      ;         =>  nil
+
+;; Store a new value into slot1:
 (reader-db-put  "filename" 'slot1 "new-value")
+
+;; Retrieve the new value:
 (reader-db-get "filename" 'slot1)      ;          => "new-value"
 ```
+
+
